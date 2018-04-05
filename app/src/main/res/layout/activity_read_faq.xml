@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+        <TextView
+            android:id="@+id/faqtitleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:scrollbars="vertical"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/answer_list"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+        <EditText
+            android:id="@+id/youranswer"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:gravity="top|start"
+            android:hint="@string/enter_your_answer"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/answerok"
+            android:text="@string/Post_answer"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#fcfbfb"
+            android:background="@drawable/buttoncolor2"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
+

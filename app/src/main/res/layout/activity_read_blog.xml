@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/blogtitleview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:scrollbars="vertical"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:background="#dad9d9" />
+
+            <TextView
+                android:id="@+id/blogdescpritionview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:padding="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/written_by"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:background="#dad9d9" />
+            <TextView
+                android:id="@+id/nameview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/branchview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/rollview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

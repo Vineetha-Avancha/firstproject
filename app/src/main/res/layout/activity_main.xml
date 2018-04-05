@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/total_background"
+    tools:context="com.something.phanipriya.firstproject.MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:src="@mipmap/mini"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+            <TextView
+            android:id="@+id/cd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/college_diaries"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:paddingBottom="5dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TextView
+            android:id="@+id/college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_your_college"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginBottom="5dp"
+            android:paddingTop="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+         <Spinner
+            android:id="@+id/spinner_college_selection"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:layout_marginEnd="70dp"
+             android:layout_marginStart="70dp"
+             android:layout_marginTop="20dp"
+             android:textAlignment="center"
+             android:paddingTop="5dp"
+             android:layout_marginBottom="5dp"
+             android:spinnerMode="dropdown"
+             android:popupBackground="@android:color/background_light" />
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <Button
+            android:id="@+id/b_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_background"
+                android:layout_marginBottom="5dp"
+                android:text="@string/login"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

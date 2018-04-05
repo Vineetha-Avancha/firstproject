@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "423844547819",
+    "firebase_url": "https://collegediaries-4a49f.firebaseio.com",
+    "project_id": "collegediaries-4a49f",
+    "storage_bucket": "collegediaries-4a49f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423844547819:android:5e34dbcaae7b2b06",
+        "android_client_info": {
+          "package_name": "com.something.phanipriya.firstproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423844547819-f0e2deie9ob8alac1d0ris6nf36e3r1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.something.phanipriya.firstproject",
+            "certificate_hash": "c0dc1d4afb9949cc95020a505f442b363ed01fcf"
+          }
+        },
+        {
+          "client_id": "423844547819-rjs9c3rrvbqtqs65unu04kqteu6resgq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.something.phanipriya.firstproject",
+            "certificate_hash": "22ae135eb4f889a406e0008ea5895a8dceffce73"
+          }
+        },
+        {
+          "client_id": "423844547819-ig7o7i1uh6d5c24g1khh20muau9s7rg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjBzk57fqMv-tDEWU-9pnnjgoEuMjOq6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423844547819-ig7o7i1uh6d5c24g1khh20muau9s7rg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

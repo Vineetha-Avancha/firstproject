@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/blogtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/blog_title"
+        android:inputType="textCapSentences|textMultiLine"
+        android:scrollbars="vertical"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</android.support.design.widget.TextInputLayout>
+
+ <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+        <EditText
+            android:id="@+id/editname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Name"
+            android:inputType="textCapSentences" />
+</android.support.design.widget.TextInputLayout>
+
+<android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <EditText
+            android:id="@+id/editbranch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Branch"
+            android:inputType="textCapCharacters" />
+</android.support.design.widget.TextInputLayout>
+
+ <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+     <EditText
+         android:id="@+id/editroll"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="@string/Roll"
+         android:inputType="text" />
+ </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|start"
+                android:hint="@string/your_story"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/editpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Set_a_password"
+                android:inputType="textPassword"
+                 />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blogok"
+        android:text="@string/Post_blog"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#fcfbfb"
+        android:background="@drawable/buttoncolor2"
+        android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

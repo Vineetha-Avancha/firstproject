@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/eventtitleview"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:scrollbars="vertical"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:background="#dad9d9" />
+
+        <TextView
+            android:id="@+id/eventdescpritionview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:padding="10dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

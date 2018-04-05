@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.something.phanipriya.firstproject.inside_events">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/eventtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|start"
+                android:hint="@string/enter_event_title"
+                android:inputType="textCapSentences"
+                android:scrollbars="vertical" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/event"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|start"
+                android:hint="@string/enter_upcoming_event"
+                android:inputType="textCapSentences|textMultiLine"
+                android:scrollbars="vertical" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/eventpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/Set_a_password_event"
+                android:inputType="textPassword"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eventok"
+            android:text="@string/Post_event"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#fcfbfb"
+            android:background="@drawable/buttoncolor2"/>
+
+
+        <TextView
+            android:id="@+id/upevents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="@string/message"
+            android:layout_marginBottom="10dp">
+
+    </TextView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

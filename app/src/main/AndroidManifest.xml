@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.something.phanipriya.firstproject">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="${applicationId}.firebaseinitprovider"
+            tools:node="remove" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".userpage">
+            <intent-filter>
+                <action android:name="com.something.phanipriya.firstproject.userpage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".blog_page"
+            android:label="@string/blog">
+            <intent-filter>
+                <action android:name="com.something.phanipriya.firstproject.blog_page" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".inside_blogpage"
+            android:label="@string/blog">
+            <intent-filter>
+                <action android:name="com.something.phanipriya.firstproject.inside_blogpage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".inside_faq"
+            android:label="@string/questions">
+            <intent-filter>
+                <action android:name="com.something.phanipriya.firstproject.inside_faq" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".inside_events"
+            android:label="@string/event">
+            <intent-filter>
+                <action android:name="com.something.phanipriya.firstproject.inside_events" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".write_queries"
+            android:label="@string/questions">
+            <intent-filter>
+                <action android:name="com.something.phanipriya.firstproject.write_queries" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".events_page"
+            android:label="@string/event">
+            <intent-filter>
+                <action android:name="com.something.phanipriya.firstproject.events_page" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".FirebaseServices.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".FirebaseServices.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".read_blog"
+            android:label="@string/blog" />
+        <activity
+            android:name=".read_faq"
+            android:label="@string/questions" />
+        <activity
+            android:name=".read_event"
+            android:label="@string/event" />
+        <activity
+            android:name=".testing"
+            android:label="@string/title_activity_testing"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

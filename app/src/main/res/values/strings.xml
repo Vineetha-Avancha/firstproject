@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">College Diaries</string>
+    <string name="title_activity_user">user</string>
+    <string name="college_diaries">College Diaries</string>
+    <string name="login">Login</string>
+    <string name="todo">TODO</string>
+    <string name="faq_s">Queries</string>
+    <string name="events">Events</string>
+    <string name="Set_a_password">Set a password for your blog</string>
+    <string name="Set_a_password_query">Set a password for your query</string>
+    <string name="Set_a_password_event">Set a password for your event</string>
+    <string name="blogs">Blogs</string>
+    <string name="college_name">College name</string>
+    <string name="writeblogs">Write Blogs</string>
+    <string name="description">Description</string>
+    <string name="ok">Submit</string>
+    <string name="Post_event">Post Event</string>
+    <string name="Name">Name</string>
+    <string name="Branch">Branch</string>
+    <string name="enter_event_title">Enter Event Title</string>
+    <string name="Roll">Full Roll Number</string>
+    <string name="Description">Description</string>
+    <string name="Upcoming_Events">Upcoming Events!!!</string>
+    <string name="write_your_query">Write Your Query</string>
+    <string name="Post_blog">Post Blog</string>
+    <string name="Post_answer">Post Answer</string>
+    <string name="written_queries">Queries</string>
+    <string name="written_blogs">Blogs</string>
+    <string name="writeevent">Post Event</string>
+    <string name="enter_upcoming_event">Description</string>
+    <string name="enter_your_answer">Enter Your Answer</string>
+    <string name="message">You may enter personal details along with the description so that people can contact you for further details regarding the event.</string>
+    <string name="blog_title">Blog Title</string>
+    <string name="your_story">Your Story</string>
+    <string name="written_by">Written By</string>
+    <string name="select_your_college">Select College</string>
+    <string name="blog">Blogs</string>
+    <string name="questions">Queries</string>
+    <string name="event">Events</string>
+    <string name="title_activity_testing">testing</string>
+
+</resources>
